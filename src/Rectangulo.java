@@ -22,13 +22,13 @@ public class Rectangulo extends Poligono {
 
 	@Override
 	public String toString() {
-		return "Rectangulo: \n"+super.toString() +"[lado1= " + lado1 + ", lado2= " + lado2 + "]";
+		return "Rectangulo: \n"+super.toString() +"[lado 1: = " + lado1 + ", lado 2: = " + lado2 + "]";
 	}
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return lado1*lado2;
+		
+		return (lado1*lado2);
 	}
 
 	
